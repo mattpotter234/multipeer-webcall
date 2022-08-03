@@ -18,17 +18,19 @@ const PORT = 3000
 io.sockets.on("connection", (socket) => {
 
     // emit my own ID
-    socket.emit("me", {userID: socket.id, roomID: uuidV4()})
-
+    socket.emit("room", {roomID: uuidV4()})
     // if user disconnects from room, remove from room
     socket.on("disconnect", (data) => {
-        socket.leave(data.roomName)
+        socket.leave(data.roomID)
+    })
+    socket.on("disconnecting", (data) => {
+        socket.to(data.roomID).emit("user-disconnected", {userID: data.userID})
     })
 
-    socket.on("request", (data) => {
+    socket.on("join", (data) => {
         socket.join(data.roomID)
-        io.socket.to(data.userID).emit("request accepted")
-        io.sockets.to(data.roomID).broadcast.emit('new-user', data.userID)
+        socket.to(data.roomID).broadcast.emit('new-user', data.userID)
+        socket.to(data.userID).emit("responce", data.roomID)
         console.log(`${data.name} has joined room ${data.roomID}`)
     })
 
