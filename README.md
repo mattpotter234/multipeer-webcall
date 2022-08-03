@@ -1,19 +1,3 @@
-Broswer Compatability
-
-    Chrome: 
-        - Version 7.0+
-    
-    Firefox
-        - Version 6.0+
-
-    Safari
-        - Verions 6.0+
-
-    Internet Explorer
-        - Versions 9.0+  
-
----------------------------------
-
 Installed Dependencies
 
     server-side:
@@ -67,3 +51,21 @@ Run-time Instructions
         1. Input Username
         2. Paste friend's ID into 'User to Call'
         3. Wait for Answer
+
+---------------------------------
+
+Broswer Compatability
+
+    Chrome: 
+        - Version 7.0+
+    
+    Firefox
+        - Version 6.0+
+
+    Safari
+        - Verions 6.0+
+
+    Internet Explorer
+        - Versions 9.0+  
+
+---------------------------------
