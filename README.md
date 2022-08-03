@@ -1,60 +1,6 @@
-Installed Dependencies
+Broswer Compatability 
 
-    server-side:
-
-        $ npm install express socket.io nodemon uuid
-
-    client-side:
-
-        $ npm install simple-peer socket.io-client @mui/core @mui/icons
-
-        $ npm install @emotion/react @emotion/style
-
----------------------------------
-
-How to run Webcall
-
-    Preliminary:
-
-        * VS Code is prefered 
-        * Open a split terminal
-
-            1. Terminal > New Terminal
-            2. Terminal > Split Terminal
-
-    Server-side:
-
-        $ cd server
-        $ npm start
-
-    Client-side:
-
-        $ cd client
-        $ npm start
-
-        - running on same port?
-        $ y
-
----------------------------------
-
-Run-time Instructions
-
-    Initiator:
-
-        1. Input name into 'Username'
-        2. Copy ID 
-        3. Send to Participant
-        4. Wait for Call -> Answer Call
-
-    Participant:
-
-        1. Input Username
-        2. Paste friend's ID into 'User to Call'
-        3. Wait for Answer
-
----------------------------------
-
-Broswer Compatability
+    *latest versions of all broswers are compatible*
 
     Chrome: 
         - Version 7.0+
@@ -69,3 +15,66 @@ Broswer Compatability
         - Versions 9.0+  
 
 ---------------------------------
+
+Installed Dependencies
+
+    server-side:
+
+        $ cd server
+        $ npm install express socket.io nodemon uuid
+
+    client-side:
+        
+        $ cd client
+        $ npm install socket.io-client peerjs
+
+---------------------------------
+
+How to run Webcall
+
+    Preliminary:
+
+        * VS Code is prefered 
+        * Open a 3-way split terminal or 3 individual terminals
+
+            1. Terminal > New Terminal
+            2. Terminal > Split Terminal
+            3. Repeat step 2
+    
+    Server-side: (terminal 1)
+
+        $ cd server
+        $ npm start
+        
+    Peer-Server: (terminal 2)
+        
+        $ cd client
+        $ peerjs --port 3030       (or any port excluding 5000,3000,3001)
+
+    Client-side: (terminal 3)
+
+        $ cd client
+        $ npm start
+
+        - running on same port?
+        $ y
+
+---------------------------------
+
+Run-time Instructions
+
+    Initiator:
+
+        1. Input 'Nickname'
+        2. Copy the displayed room ID or create a custom ID in 'ID to Call'
+        3. Click 'join'
+        4. Send room ID to participants
+        5. Wait for Call -> Answer Call
+
+    Participant:
+
+        1. Input 'Nickname'
+        2. Input given room ID into 'ID to Call'
+        3. Click 'Join'
+        3. Wait for Answer -> injected into room
+        
