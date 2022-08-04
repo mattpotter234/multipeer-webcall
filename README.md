@@ -85,6 +85,11 @@ Version History:
          - Multi-peer Webcall functionality
          - Dual Websocket Servers with ReactJS Client Interface
          - Four Participants per room
+         - Incoming and Outgoing calls
+         - Generated and/or Custom room ID
+         - Caller ID displays nickname or unknown when field is empty 
+         - Mute microphone avaialable
+         - Hide camera available
          - Dark Mode Inspired Theme
         
 ---------------------------------
