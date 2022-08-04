@@ -1,4 +1,4 @@
-Broswer Compatability 
+Broswer Compatability: 
 
     *latest versions of all broswers are compatible*
 
@@ -16,7 +16,7 @@ Broswer Compatability
 
 ---------------------------------
 
-Installed Dependencies
+Installed Dependencies:
 
     server-side:
 
@@ -30,7 +30,7 @@ Installed Dependencies
 
 ---------------------------------
 
-How to run Webcall
+How to run Webcall:
 
     Preliminary:
 
