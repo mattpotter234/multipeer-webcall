@@ -68,13 +68,13 @@ Broswer Compatability:
     Chrome: 
         - Version 7.0+
     
-    Firefox
+    Firefox:
         - Version 6.0+
 
-    Safari
+    Safari:
         - Verions 6.0+
 
-    Internet Explorer
+    Internet Explorer:
         - Versions 9.0+  
             
 ---------------------------------
@@ -91,11 +91,11 @@ Version History:
 
 Development Stack:
       
-        Languages
+        Languages:
             - JavaScript
             - HTML5
             - CSS
-         API
+         API:
             - ReactJS
             - Socket.io
             - PeerJS
