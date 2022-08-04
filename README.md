@@ -1,4 +1,4 @@
-How to run Webcall:
+How to Run:
 
     Preliminary:
 
@@ -76,20 +76,6 @@ Broswer Compatability:
 
     Internet Explorer
         - Versions 9.0+  
-
----------------------------------
-
-Development Stack:
-      
-      v1.0.0:
-         Languages
-            - JavaScript
-            - HTML5
-            - CSS
-         API
-            - ReactJS
-            - Socket.io
-            - PeerJS
             
 ---------------------------------
 
@@ -101,3 +87,15 @@ Version History:
          - Four Participants per room
          - Dark Mode Inspired Theme
         
+---------------------------------
+
+Development Stack:
+      
+        Languages
+            - JavaScript
+            - HTML5
+            - CSS
+         API
+            - ReactJS
+            - Socket.io
+            - PeerJS
