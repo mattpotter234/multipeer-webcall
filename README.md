@@ -13,7 +13,7 @@ Broswer Compatability:
 
     Internet Explorer
         - Versions 9.0+  
-
+    
 ---------------------------------
 
 Installed Dependencies:
