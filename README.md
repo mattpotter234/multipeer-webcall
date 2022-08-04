@@ -35,11 +35,7 @@ How to run Webcall
     Preliminary:
 
         * VS Code is prefered 
-        * Open a 3-way split terminal or 3 individual terminals
-
-            1. Terminal > New Terminal
-            2. Terminal > Split Terminal
-            3. Repeat step 2
+        * Open three separate windows in the terminal
     
     Server-side: (terminal 1)
 
@@ -61,7 +57,9 @@ How to run Webcall
 
 ---------------------------------
 
-Run-time Instructions
+Run-time Instructions:
+
+    *Open a browser and enter the URL: http://localhost:3001/
 
     Initiator:
 
@@ -76,5 +74,5 @@ Run-time Instructions
         1. Input 'Nickname'
         2. Input given room ID into 'ID to Call'
         3. Click 'Join'
-        3. Wait for Answer -> injected into room
+        3. Wait for Answer -> inject into room
         
