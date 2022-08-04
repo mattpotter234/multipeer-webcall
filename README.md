@@ -27,7 +27,7 @@ How to Run:
 
 Run-time Instructions:
 
-    *Open a browser and enter the URL: http://localhost:3001/
+    *Open default browser and enter the URL: http://localhost:3001/
 
     Initiator:
 
