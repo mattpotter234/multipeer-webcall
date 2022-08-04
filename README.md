@@ -80,8 +80,24 @@ Run-time Instructions:
 
 Version History:
 
-   *MPWC v1.0.0 (2022)
-      Multipeer Webcall functionality
-      - Dual Websocket Servers with ReactJS Client Interface
-      - Four Participants per room
-      - Dark Mode Inspired Theme
+      MPWC v1.0.0 (2022):
+         - Multi-peer Webcall functionality
+         - Dual Websocket Servers with ReactJS Client Interface
+         - Four Participants per room
+         - Dark Mode Inspired Theme
+         
+---------------------------------
+
+Development Stack:
+      
+      v1.0.0:
+         Languages
+            - JavaScript
+            - HTML5
+            - CSS
+      
+         API
+            - ReactJS
+            - Socket.io
+            - PeerJS
+      
