@@ -76,3 +76,13 @@ Run-time Instructions:
         3. Click 'Join'
         3. Wait for Answer -> inject into room
         
+---------------------------------
+
+Version History
+
+   MPWC v1.0.0 (2022):
+   
+      Multipeer Webcall functionality
+      - Dual Websocket Servers with ReactJS Client Interface
+      - Four Participants per room
+      - Dark Mode Inspired Theme
