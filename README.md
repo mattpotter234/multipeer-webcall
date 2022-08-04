@@ -34,7 +34,7 @@ How to run Webcall:
 
     Preliminary:
 
-        * Visual Studio Code is prefered 
+        * Visual Studio Code is preferred 
         * Open three separate windows in the terminal
     
     Server-side: (terminal 1)
