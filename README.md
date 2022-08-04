@@ -1,35 +1,3 @@
-Broswer Compatability: 
-
-    *latest versions of all broswers are compatible*
-
-    Chrome: 
-        - Version 7.0+
-    
-    Firefox
-        - Version 6.0+
-
-    Safari
-        - Verions 6.0+
-
-    Internet Explorer
-        - Versions 9.0+  
-    
----------------------------------
-
-Installed Dependencies:
-
-    server-side:
-
-        $ cd server
-        $ npm install express socket.io nodemon uuid
-
-    client-side:
-        
-        $ cd client
-        $ npm install socket.io-client peerjs
-
----------------------------------
-
 How to run Webcall:
 
     Preliminary:
@@ -75,17 +43,40 @@ Run-time Instructions:
         2. Input given room ID into 'ID to Call'
         3. Click 'Join'
         3. Wait for Answer -> inject into room
-        
+               
 ---------------------------------
 
-Version History:
+Installed Dependencies:
 
-      MPWC v1.0.0 (2022):
-         - Multi-peer Webcall functionality
-         - Dual Websocket Servers with ReactJS Client Interface
-         - Four Participants per room
-         - Dark Mode Inspired Theme
-         
+    server-side:
+
+        $ cd server
+        $ npm install express socket.io nodemon uuid
+
+    client-side:
+        
+        $ cd client
+        $ npm install socket.io-client peerjs
+        
+
+---------------------------------
+
+Broswer Compatability: 
+
+    *latest versions of all broswers are compatible*
+
+    Chrome: 
+        - Version 7.0+
+    
+    Firefox
+        - Version 6.0+
+
+    Safari
+        - Verions 6.0+
+
+    Internet Explorer
+        - Versions 9.0+  
+
 ---------------------------------
 
 Development Stack:
@@ -95,9 +86,18 @@ Development Stack:
             - JavaScript
             - HTML5
             - CSS
-      
          API
             - ReactJS
             - Socket.io
             - PeerJS
-      
+            
+---------------------------------
+
+Version History:
+
+      MPWC v1.0.0 (2022):
+         - Multi-peer Webcall functionality
+         - Dual Websocket Servers with ReactJS Client Interface
+         - Four Participants per room
+         - Dark Mode Inspired Theme
+        
